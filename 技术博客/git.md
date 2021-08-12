@@ -408,3 +408,9 @@ git push -u origin main # 将本地仓库分支main 推送到远程仓库origin�
  
 ```
 
+### 阅读原文
+
+- Git 本地仓库（Repository）详解：https://blog.51cto.com/freeloda/1413506
+
+- GitHub 使用详解：https://blog.51cto.com/freeloda/1418674
+

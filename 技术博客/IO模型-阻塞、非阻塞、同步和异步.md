@@ -205,11 +205,14 @@ epoll，已经大大优化了IO的执行效率，但在IO执行的第一阶段�
 
 ## 阅读原文
 
-[JavaGuide IO 模型](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/basis/IO模型.md)
+- JavaGuide IO 模型：[https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/basis/IO模型.md](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/basis/IO模型.md)
 
-[IO 模型知多少 | 理论篇](https://www.cnblogs.com/sheng-jie/p/how-much-you-know-about-io-models.html)
 
-[什么是阻塞，非阻塞，同步，异步？](https://sowhatbigfatloser.com/shi-yao-shi-zu-sai-fei-zu-sai-tong-bu-yi-bu/)
+- IO 模型知多少 | 理论篇：https://www.cnblogs.com/sheng-jie/p/how-much-you-know-about-io-models.html
 
-[阻塞和非阻塞 都有优点, 我理解的对么](https://segmentfault.com/q/1010000010415760)
+
+- 什么是阻塞，非阻塞，同步，异步？：https://sowhatbigfatloser.com/shi-yao-shi-zu-sai-fei-zu-sai-tong-bu-yi-bu/
+
+- 阻塞和非阻塞 都有优点, 我理解的对么：https://segmentfault.com/q/1010000010415760
+
 
