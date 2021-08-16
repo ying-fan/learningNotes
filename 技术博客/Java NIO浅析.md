@@ -156,7 +156,7 @@ class IoThread extends Thread{
 
 3.  **业务线程**，在处理完I/O后，业务一般还会有自己的业务逻辑，有的还会有其他的阻塞I/O，如DB操作，RPC等。只要有阻塞，就需要单独的线程。
 
-Java的Selector对于Linux系统来说，有一个致命限制：**同一个channel的select不能被并发的调用**。因此，如果有多个I/O线程，必须保证：**一个socket只能属于一个IOThread，而一个IOThread可以管理多个socket**。
+Java的Selector对于Linux系统来说，有一个致命限制：**同一个channel的select不能被并发的调用**。因此，如果有多个I/O线程，必须保证：**一个socket只能属于一个IOThread，而一个IOThread可以管理多个socket**。（防止发生并发操作问题）
 
 另外**连接的处理和读写的处理通常可以选择分开，这样对于海量连接的注册和读写就可以分发**。虽然read()和write()是比较高效无阻塞的函数，但毕竟会占用CPU，如果面对更高的并发则无能为力。
 
